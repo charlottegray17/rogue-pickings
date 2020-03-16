@@ -1,0 +1,147 @@
+@font-face{
+    font-family: Wisdom Script; 
+    src: url('../fonts/WisdomScriptAJ.woff') format('woff');
+}
+@font-face{
+    font-family: Wisdom Script; 
+    src: url('../fonts/WisdomScriptAJ.eot') format('eot');
+}
+@font-face{
+    font-family: Wisdom Script; 
+    src: url('../fonts/WisdomScriptAJ.ttf') format('opentype');
+}
+
+/***GRID***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+.half-width {
+    width: 600px;
+    float: left; 
+}
+
+.third-width {
+    width: 336px;
+    float: left; 
+}
+
+
+/***TEXT***/
+
+h1, h2, h3, h4, nav ul{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 30px; 
+}
+
+h1 span {
+    color:#77a466; 
+    }
+
+h3 span {
+    color:#77a466;
+    font-family: 'Wisdom Script';
+    text-transform: lowercase;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+/***HEADER AND NAVIGATION***/
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+} 
+
+header h1 {
+    float: left;
+    margin: 0 auto;
+    padding: 40px 0; 
+}
+
+header nav {
+    float: right;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+header nav ul {
+    
+}
+
+header ul li {
+    color: #77a466;
+    list-style-type: none;
+    padding-left: 30px;
+    display: inline; 
+}
+
+/*MAIN*/
+
+main img {
+    border-top: solid 3px #77a466;
+    border-bottom: solid 3px #77a466;
+}
+
+#specials, #reviews, #contact {
+    height: 210px;
+    padding: 30px;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+}
+
+#reviews {
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+}
+
+/***INTRO***/
+
+main h2 {
+    font-size: 18px;
+    color: #77a466;
+}
+main p {
+    font-size: 16px; 
+}
+
+/***INFO BAR***/
+
+section h4 {
+    font-size: 12px; 
+}
+section p {
+    padding-top: 16px; 
+    font-size: 16px; 
+}
+
+section ul { 
+    list-style-type: none;
+    display: inline;
+    margin: 0 auto; 
+}
+
+section li {
+    padding: 11px 0;
+    color:  #77a466;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/***FOOTER***/
+
+footer {
+    border-top: solid 1px white; 
+    text-align: center;
+    height: 50px;
+    margin: 0 auto;
+    clear: both; 
+ 
+}
